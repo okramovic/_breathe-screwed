@@ -27,19 +27,13 @@ function error(er){
 }*/
 document.addEventListener("deviceready", function(){
 
-               
+        cordova.plugins.notification.local.schedule({
+            title: 'My first notification',
+            text: 'Thats pretty easy.. fuck',
+            foreground: true
+        });  
         
-        navigator.plugins.alarm.set(
-                 new Date(2017, 11, 5, 18, 30, 0, 0)
-                ,function(){
-                  // SUCCESS
-                        alert('alarm sukces')
-                }, 
-                function(){
-                  // ERROR
-                        alert('alarm eror')
-                })
-        alert(">" +JSON.stringify(navigator.plugins.alarm) +  "<")
+        alert(">\n" + JSON.stringify(cordova.plugins.notification.local.getDefaults() ) + "\n<"   )
         
         cordova.plugins.backgroundMode.enable();
 
