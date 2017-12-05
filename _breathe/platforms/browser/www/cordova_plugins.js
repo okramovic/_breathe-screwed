@@ -295,33 +295,6 @@ module.exports = [
         "id": "cordova-plugin-background-mode.BackgroundMode.Proxy",
         "pluginId": "cordova-plugin-background-mode",
         "runs": true
-    },
-    {
-        "file": "plugins/cordova-plugin-local-notifications-nn/www/local-notification.js",
-        "id": "cordova-plugin-local-notifications-nn.LocalNotification",
-        "pluginId": "cordova-plugin-local-notifications-nn",
-        "clobbers": [
-            "cordova.plugins.notification.local",
-            "plugin.notification.local"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-local-notifications-nn/www/local-notification-core.js",
-        "id": "cordova-plugin-local-notifications-nn.LocalNotification.Core",
-        "pluginId": "cordova-plugin-local-notifications-nn",
-        "clobbers": [
-            "cordova.plugins.notification.local.core",
-            "plugin.notification.local.core"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-local-notifications-nn/www/local-notification-util.js",
-        "id": "cordova-plugin-local-notifications-nn.LocalNotification.Util",
-        "pluginId": "cordova-plugin-local-notifications-nn",
-        "merges": [
-            "cordova.plugins.notification.local.core",
-            "plugin.notification.local.core"
-        ]
     }
 ];
 module.exports.metadata = 
@@ -337,8 +310,7 @@ module.exports.metadata =
     "cordova-plugin-background-app": "2.0.3-dev",
     "org.jk.cordova.wakeupplugin": "1.0.2",
     "cordova-plugin-device": "1.1.7",
-    "cordova-plugin-background-mode": "0.7.2",
-    "cordova-plugin-local-notifications-nn": "0.8.2-r3"
+    "cordova-plugin-background-mode": "0.7.2"
 }
 // BOTTOM OF METADATA
 });

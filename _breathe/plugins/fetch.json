@@ -89,14 +89,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-local-notifications-nn": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-local-notifications-nn"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "android.support.v13": {
         "source": {
             "type": "registry",
