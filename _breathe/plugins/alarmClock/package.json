@@ -1,0 +1,45 @@
+{
+  "_from": "alarmClock",
+  "_id": "alarmClock@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-hbqYdEP+nv5ZQ9X8F4H01mck5Ak=",
+  "_location": "/alarmClock",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "alarmClock",
+    "name": "alarmClock",
+    "escapedName": "alarmClock",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/alarmClock/-/alarmClock-0.0.1.tgz",
+  "_shasum": "85ba987443fe9efe5943d5fc1781f4d66724e409",
+  "_spec": "alarmClock",
+  "_where": "/Users/okram/Desktop/moi/_br_cord/_breathe",
+  "author": "",
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "com.none.alarmClock",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova alarmClock Plugin",
+  "keywords": [
+    "cordova",
+    "alarmClock",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "Apache 2.0",
+  "name": "alarmClock",
+  "version": "0.0.1"
+}

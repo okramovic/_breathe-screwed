@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.none.alarmClock" 
+	version="0.0.1" 
+	xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+	xmlns:rim="http://www.blackberry.com/ns/widgets"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>alarmClock</name>
+    <description>Cordova alarmClock Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,alarmClock</keywords>
+    <js-module name="alarmClock" src="www/alarmClock.js">
+        <clobbers target="cordova.plugins.alarmClock" />
+    </js-module>
+        <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="alarmClock">
+                <param name="ios-package" value="CDVAlarmClock"/>
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/CDVAlarmClock.h" />
+        <source-file src="src/ios/CDVAlarmClock.m" />
+    </platform>
+</plugin>
