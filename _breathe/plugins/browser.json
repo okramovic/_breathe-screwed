@@ -1,0 +1,47 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.breathe.oky"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "XXXXXXX",
+            "PACKAGE_NAME": "com.breathe.oky"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.breathe.oky"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.breathe.oky"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.breathe.oky"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.breathe.oky"
+        },
+        "cordova-plugin-background-app": {
+            "PACKAGE_NAME": "com.breathe.oky"
+        },
+        "org.jk.cordova.wakeupplugin": {
+            "PACKAGE_NAME": "com.breathe.oky"
+        },
+        "cordova-plugin-background-mode": {
+            "PACKAGE_NAME": "com.breathe.oky"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.breathe.oky"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.breathe.oky"
+        }
+    }
+}

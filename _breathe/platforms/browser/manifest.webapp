@@ -1,0 +1,11 @@
+{
+  "name": "breathe cordova",
+  "description": "nanohabits reminder",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/res/icons/icon128.png",
+    "512": "/res/icons/icon512.png"
+  },
+  "default_locale": "en",
+  "type": "privileged"
+}

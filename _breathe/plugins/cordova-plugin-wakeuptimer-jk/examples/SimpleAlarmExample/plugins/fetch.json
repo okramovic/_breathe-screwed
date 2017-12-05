@@ -1,0 +1,9 @@
+{
+    "org.nypr.cordova.wakeupplugin": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wnyc/cordova-plugin-wakeuptimer.git",
+            "subdir": "."
+        }
+    }
+}

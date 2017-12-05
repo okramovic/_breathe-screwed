@@ -1,0 +1,38 @@
+.cancel{
+  align-self: flex-end;
+}
+.full{
+  width: 100%;
+}
+
+
+.horiz{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vert{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: flex-start;*/
+}
+
+
+.around{
+  justify-content: space-around;
+}
+.topMar15{
+  margin-top: 15px;
+}
+.botMar25{
+  margin-bottom: 25px;
+}
+
+
+.timerLIExpanded{
+  border: 1px solid black;
+  border-radius: 4px;
+
+  padding: 10px;
+}

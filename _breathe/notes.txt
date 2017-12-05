@@ -1,0 +1,26 @@
+wakeup / alarms problematic
+
+      https://www.npmjs.com/search?q=wakeup&page=2&ranking=optimal
+
+      https://www.npmjs.com/package/cordova-plugin-wakeuptimer-jk
+
+      https://github.com/DrewDahlman/Phonegap-LocalNotification
+
+
+      https://github.com/uniclau/AlarmPlugin
+
+
+      https://www.npmjs.com/~jkhax0r
+        he has some plugins related to alarms
+
+
+
+      bck app
+      https://github.com/MobileChromeApps/cordova-plugin-background-app
+
+
+check using cordova plugin device - what things can it do?
+
+plugin cordova exec
+
+in root config xml was at jfk plugin spec="https://github.com/jkhax0r/cordova-plugin-wakeuptimer"

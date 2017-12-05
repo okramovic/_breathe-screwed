@@ -1,0 +1,25 @@
+{
+    "name": "com.breathe.oky",
+    "version": "0.0.1",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "displayName": "breathe",
+    "dependencies": {
+        "cordova-android": "^6.4.0",
+        "cordova-plugin-background-app": "git+https://github.com/MobileChromeApps/cordova-plugin-background-app.git",
+        "cordova-plugin-background-mode": "^0.7.2",
+        "cordova-plugin-device": "^1.1.7",
+        "cordova-plugin-file": "^5.0.0",
+        "cordova-plugin-media": "^4.0.0",
+        "cordova-plugin-wakeuptimer-jk": "git+https://github.com/jkhax0r/cordova-plugin-wakeuptimer.git"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-media": {},
+            "cordova-plugin-background-app": {},
+            "org.jk.cordova.wakeupplugin": {},
+            "cordova-plugin-background-mode": {}
+        }
+    }
+}

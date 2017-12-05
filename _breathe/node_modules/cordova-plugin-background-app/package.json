@@ -1,0 +1,58 @@
+{
+  "_from": "git+https://github.com/MobileChromeApps/cordova-plugin-background-app.git",
+  "_id": "cordova-plugin-background-app@2.0.3-dev",
+  "_inBundle": false,
+  "_integrity": "sha1-McEHXrW6SNxwcXlVVYovxDy2XOY=",
+  "_location": "/cordova-plugin-background-app",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/MobileChromeApps/cordova-plugin-background-app",
+    "rawSpec": "https://github.com/MobileChromeApps/cordova-plugin-background-app",
+    "saveSpec": "git+https://github.com/MobileChromeApps/cordova-plugin-background-app.git",
+    "fetchSpec": "https://github.com/MobileChromeApps/cordova-plugin-background-app.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/MobileChromeApps/cordova-plugin-background-app.git#9f07a60947be9b859df165044904eaff1295ade0",
+  "_spec": "https://github.com/MobileChromeApps/cordova-plugin-background-app",
+  "_where": "/Users/okram/Desktop/moi/_br_cord/_breathe/node_modules",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/MobileChromeApps/cordova-plugin-background-app/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-background-app",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "The purpose of this plugin is to enable notifications, alarms, etc to re-start your app and fire callbacks without the app causing any visual cues to the user. In essense, it allows starting an app as an Android service, but does so without the use of an actual service.",
+  "engines": [
+    {
+      "name": "cordova-android",
+      "version": ">=4"
+    }
+  ],
+  "homepage": "https://github.com/MobileChromeApps/cordova-plugin-background-app",
+  "keywords": [
+    "chrome",
+    "background",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "BSD",
+  "name": "cordova-plugin-background-app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MobileChromeApps/cordova-plugin-background-app.git"
+  },
+  "version": "2.0.3-dev"
+}
