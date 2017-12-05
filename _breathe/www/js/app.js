@@ -27,7 +27,19 @@ function error(er){
 }*/
 document.addEventListener("deviceready", function(){
 
-        alert("chrome alarms>" + chrome.alarms + "<")
+               
+        
+        navigator.plugins.alarm.set(
+                 new Date(2017, 11, 5, 18, 30, 0, 0)
+                ,function(){
+                  // SUCCESS
+                        alert('alarm sukces')
+                }, 
+                function(){
+                  // ERROR
+                        alert('alarm eror')
+                })
+        alert(">" +JSON.stringify(navigator.plugins.alarm) +  "<")
         
         cordova.plugins.backgroundMode.enable();
 
