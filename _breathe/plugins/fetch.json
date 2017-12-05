@@ -84,7 +84,7 @@
     "cordova-plugin-device": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-device@^1.1.7"
+            "id": "org.apache.cordova.device@https://github.com/apache/cordova-plugin-device"
         },
         "is_top_level": true,
         "variables": {}

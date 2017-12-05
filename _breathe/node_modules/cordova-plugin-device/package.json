@@ -1,27 +1,26 @@
 {
-  "_from": "cordova-plugin-device",
-  "_id": "cordova-plugin-device@1.1.7",
+  "_from": "git+https://github.com/apache/cordova-plugin-device.git",
+  "_id": "cordova-plugin-device@1.1.8-dev",
   "_inBundle": false,
-  "_integrity": "sha1-/JQRG+aTJijGaGiTjd89yCyfv+Y=",
+  "_integrity": "sha1-CLsFkDHYerd/SNg4WOKw1fNmwfs=",
   "_location": "/cordova-plugin-device",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "cordova-plugin-device",
-    "name": "cordova-plugin-device",
-    "escapedName": "cordova-plugin-device",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
+    "type": "git",
+    "raw": "org.apache.cordova.device@https://github.com/apache/cordova-plugin-device",
+    "name": "org.apache.cordova.device",
+    "escapedName": "org.apache.cordova.device",
+    "rawSpec": "https://github.com/apache/cordova-plugin-device",
+    "saveSpec": "git+https://github.com/apache/cordova-plugin-device.git",
+    "fetchSpec": "https://github.com/apache/cordova-plugin-device.git",
+    "gitCommittish": "master"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-device/-/cordova-plugin-device-1.1.7.tgz",
-  "_shasum": "fc94111be6932628c66868938ddf3dc82c9fbfe6",
-  "_spec": "cordova-plugin-device",
+  "_resolved": "git+https://github.com/apache/cordova-plugin-device.git#71c419b5d41add4bcab4d77f713b125407e637bf",
+  "_spec": "org.apache.cordova.device@https://github.com/apache/cordova-plugin-device",
   "_where": "/Users/okram/Desktop/moi/_br_cord/_breathe/node_modules",
   "author": {
     "name": "Apache Software Foundation"
@@ -96,5 +95,5 @@
     "test": "npm run eslint"
   },
   "types": "./types/index.d.ts",
-  "version": "1.1.7"
+  "version": "1.1.8-dev"
 }

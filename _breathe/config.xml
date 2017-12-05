@@ -111,4 +111,5 @@
     </platform>
     <plugin name="cordova-plugin-device" spec="^1.1.7" />
     <plugin name="cordova-plugin-local-notifications-nn" spec="^0.8.2-r3" />
+    <engine name="android" spec="~6.2.3" />
 </widget>
