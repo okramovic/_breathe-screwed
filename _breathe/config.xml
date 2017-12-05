@@ -19,7 +19,7 @@
     </plugin>
     <plugin name="cordova-plugin-console" source="npm" spec="~1.0.3" />
     <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.1" />
-    <plugin name="org.apache.cordova.device" spec="*" />
+    <plugin name="org.apache.cordova.device" spec="^1.1.7" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
     <plugin name="cordova-plugin-media" source="npm" spec="~2.2.0" />
     <plugin name="cordova-plugin-background-app" source="npm" spec="https://github.com/MobileChromeApps/cordova-plugin-background-app" />
@@ -109,5 +109,4 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    
 </widget>
