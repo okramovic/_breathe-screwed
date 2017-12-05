@@ -34,13 +34,13 @@
         },
         "cordova-plugin-background-mode": {
             "PACKAGE_NAME": "com.breathe.oky"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.breathe.oky"
         }
     },
     "dependent_plugins": {
         "cordova-plugin-file": {
-            "PACKAGE_NAME": "com.breathe.oky"
-        },
-        "cordova-plugin-device": {
             "PACKAGE_NAME": "com.breathe.oky"
         }
     }

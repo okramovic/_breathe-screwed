@@ -24,3 +24,8 @@ check using cordova plugin device - what things can it do?
 plugin cordova exec
 
 in root config xml was at jfk plugin spec="https://github.com/jkhax0r/cordova-plugin-wakeuptimer"
+
+
+
+didnt work and is shitty
+    https://github.com/uniclau/AlarmPlugin

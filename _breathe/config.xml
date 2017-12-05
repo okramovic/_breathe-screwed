@@ -19,12 +19,12 @@
     </plugin>
     <plugin name="cordova-plugin-console" source="npm" spec="~1.0.3" />
     <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.1" />
+    <plugin name="cordova-plugin-device" spec="^1.1.7" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
     <plugin name="cordova-plugin-media" source="npm" spec="~2.2.0" />
     <plugin name="cordova-plugin-background-app" source="npm" spec="https://github.com/MobileChromeApps/cordova-plugin-background-app" />
     <plugin name="org.jk.cordova.wakeupplugin" spec="https://github.com/jkhax0r/cordova-plugin-wakeuptimer" />
     <plugin name="cordova-plugin-background-mode" source="npm" spec="^0.7.2" />
-    <plugin name="cordova.plugins.alarmClock" source="npm" spec="https://github.com/uniclau/AlarmPlugin"/>
     <platform name="android">
         <icon density="ldpi" src="www/res/icons/icon128.png" />
         <icon density="mdpi" src="www/res/icons/icon512.png" />
@@ -109,4 +109,5 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    
 </widget>

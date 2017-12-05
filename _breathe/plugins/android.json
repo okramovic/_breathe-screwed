@@ -27,6 +27,9 @@
         },
         "cordova-plugin-background-mode": {
             "PACKAGE_NAME": "com.breathe.oky"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.breathe.oky"
         }
     },
     "dependent_plugins": {
@@ -34,9 +37,6 @@
             "PACKAGE_NAME": "com.breathe.oky"
         },
         "cordova-plugin-wakeuptimer-jk": {
-            "PACKAGE_NAME": "com.breathe.oky"
-        },
-        "cordova-plugin-device": {
             "PACKAGE_NAME": "com.breathe.oky"
         }
     }
