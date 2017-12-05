@@ -88,13 +88,5 @@
         },
         "is_top_level": true,
         "variables": {}
-    },
-    "de.appplant.cordova.plugin.local-notification": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-local-notifications@^1.0.0"
-        },
-        "is_top_level": true,
-        "variables": {}
     }
 }

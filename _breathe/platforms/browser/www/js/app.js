@@ -27,18 +27,55 @@ function error(er){
 }*/
 document.addEventListener("deviceready", function(){
 
-        //alert(">" + cordova.backgroundapp + "<")
+        cordova.plugins.notification.local.schedule({
+            title: 'My first notification',
+            text: 'Thats pretty easy.. fuck',
+            foreground: true
+        });  
         
-        alert(">\n" + JSON.stringify(window.wakeuptimer) + "\n<")
+        alert(">\n" + JSON.stringify(cordova.plugins.notification.local.getDefaults() ) + "\n<"   )
+        
+        cordova.plugins.backgroundMode.enable();
+
+        //alert(">\n" + JSON.stringify(window.wakeuptimer) + "\n<")
+        
         setTimeout(function(){
-                var testsound22 = new Media('/assets/www/res/mynoise_korimako_new_zealand_1.mp3')
-                //success,error) 
-                testsound22.play()
+                //var testsound22 = new Media('/assets/www/res/mynoise_korimako_new_zealand_1.mp3')//success,error) 
+
+                
+                //cordova.plugins.backgroundMode.moveToForeground();
+                navigator.notification.alert(   'test alert', 
+                                                ()=>{
+                                                alert('this is callback')},
+                                                'my title'
+                )
+
+                //testsound22.play()
 
                 //cordova.backgroundapp.show()
-                },5000)
-        
-        window.wakeuptimer.wakeup(successWake, errorWake,
+        },7000)
+
+        setTimeout(function(){
+                
+                // Turn screen on 
+                cordova.plugins.backgroundMode.wakeUp();
+                alert('wake up')
+                //testsound22.play()
+
+                //cordova.backgroundapp.show()
+        },15000)
+
+        setTimeout(function(){
+                // Turn screen on and show app even locked 
+                cordova.plugins.backgroundMode.unlock();
+                alert('unlock')
+                //testsound22.play()
+        },25000)
+        setTimeout(function(){
+
+                alert(">" + JSON.stringify(cordova.plugins.backgroundMode) + "<")     
+        },45000)
+        /*window.wakeuptimer.wakeup(successWake, errorWake,
                 {
                   "alarms":[{
                         "type":"repeating",
@@ -46,7 +83,7 @@ document.addEventListener("deviceready", function(){
                         "message" : "M Alarm has expired M"
                   }]      
                 }
-        )
+        )*/
         //extra : { message : 'json containing app-specific information to be posted when alarm triggers' },
 
         function successWake(result){
