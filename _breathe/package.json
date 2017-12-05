@@ -7,7 +7,6 @@
     "displayName": "breathe",
     "dependencies": {
         "alarmClock": "0.0.1",
-        "cordova-android": "^6.2.3",
         "cordova-plugin-android-support-v13": "git+https://github.com/nnexai/cordova-plugin-android-support-v13.git",
         "cordova-plugin-background-app": "git+https://github.com/MobileChromeApps/cordova-plugin-background-app.git",
         "cordova-plugin-background-mode": "^0.7.2",
@@ -42,8 +41,6 @@
                 "SENDER_ID": "XXXXXXX"
             }
         },
-        "platforms": [
-            "android"
-        ]
+        "platforms": []
     }
 }
