@@ -25,6 +25,7 @@
     <plugin name="cordova-plugin-background-app" source="npm" spec="https://github.com/MobileChromeApps/cordova-plugin-background-app" />
     <plugin name="org.jk.cordova.wakeupplugin" spec="https://github.com/jkhax0r/cordova-plugin-wakeuptimer" />
     <plugin name="cordova-plugin-background-mode" source="npm" spec="^0.7.2" />
+    <plugin name="de.appplant.cordova.plugin.local-notification" spec="https://github.com/katzer/cordova-plugin-local-notifications" >
     <platform name="android">
         <icon density="ldpi" src="www/res/icons/icon128.png" />
         <icon density="mdpi" src="www/res/icons/icon512.png" />
