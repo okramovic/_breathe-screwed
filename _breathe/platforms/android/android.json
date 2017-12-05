@@ -57,6 +57,10 @@
                         {
                             "xml": "<preference name=\"AndroidLaunchMode\" value=\"singleInstance\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"LocalNotification\"><param name=\"android-package\" value=\"de.appplant.cordova.plugin.localnotification.LocalNotification\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -82,6 +86,34 @@
                         },
                         {
                             "xml": "<service android:name=\"de.appplant.cordova.plugin.background.ForegroundService\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<receiver android:exported=\"false\" android:name=\"de.appplant.cordova.plugin.localnotification.TriggerReceiver\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<receiver android:exported=\"false\" android:name=\"de.appplant.cordova.plugin.localnotification.ClearReceiver\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:exported=\"false\" android:launchMode=\"singleInstance\" android:name=\"de.appplant.cordova.plugin.localnotification.ClickActivity\" android:theme=\"@android:style/Theme.NoDisplay\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<receiver android:exported=\"false\" android:name=\"de.appplant.cordova.plugin.notification.TriggerReceiver\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<receiver android:exported=\"false\" android:name=\"de.appplant.cordova.plugin.notification.ClearReceiver\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<receiver android:exported=\"false\" android:name=\"de.appplant.cordova.plugin.localnotification.RestoreReceiver\"><intent-filter><action android:name=\"android.intent.action.BOOT_COMPLETED\" /></intent-filter></receiver>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:exported=\"false\" android:launchMode=\"singleInstance\" android:name=\"de.appplant.cordova.plugin.notification.ClickActivity\" android:theme=\"@android:style/Theme.NoDisplay\" />",
                             "count": 1
                         }
                     ],
@@ -114,6 +146,14 @@
                     "/manifest": [
                         {
                             "xml": "<uses-permission android:name=\"android.permission.WAKE_LOCK\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
                             "count": 1
                         }
                     ]
@@ -150,6 +190,12 @@
             "PACKAGE_NAME": "com.breathe.oky"
         },
         "cordova-plugin-background-mode": {
+            "PACKAGE_NAME": "com.breathe.oky"
+        },
+        "android.support.v13": {
+            "PACKAGE_NAME": "com.breathe.oky"
+        },
+        "cordova-plugin-local-notifications-nn": {
             "PACKAGE_NAME": "com.breathe.oky"
         }
     },
@@ -400,6 +446,33 @@
                 "cordova.plugins.backgroundMode",
                 "plugin.backgroundMode"
             ]
+        },
+        {
+            "id": "cordova-plugin-local-notifications-nn.LocalNotification",
+            "file": "plugins/cordova-plugin-local-notifications-nn/www/local-notification.js",
+            "pluginId": "cordova-plugin-local-notifications-nn",
+            "clobbers": [
+                "cordova.plugins.notification.local",
+                "plugin.notification.local"
+            ]
+        },
+        {
+            "id": "cordova-plugin-local-notifications-nn.LocalNotification.Core",
+            "file": "plugins/cordova-plugin-local-notifications-nn/www/local-notification-core.js",
+            "pluginId": "cordova-plugin-local-notifications-nn",
+            "clobbers": [
+                "cordova.plugins.notification.local.core",
+                "plugin.notification.local.core"
+            ]
+        },
+        {
+            "id": "cordova-plugin-local-notifications-nn.LocalNotification.Util",
+            "file": "plugins/cordova-plugin-local-notifications-nn/www/local-notification-util.js",
+            "pluginId": "cordova-plugin-local-notifications-nn",
+            "merges": [
+                "cordova.plugins.notification.local.core",
+                "plugin.notification.local.core"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -412,6 +485,8 @@
         "cordova-plugin-wakeuptimer-jk": "1.1.2",
         "cordova-plugin-whitelist": "1.2.2",
         "cordova-plugin-device": "1.1.7",
-        "cordova-plugin-background-mode": "0.7.2"
+        "cordova-plugin-background-mode": "0.7.2",
+        "android.support.v13": "23.0.1-r2",
+        "cordova-plugin-local-notifications-nn": "0.8.2-r3"
     }
 }

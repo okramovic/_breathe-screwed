@@ -245,6 +245,33 @@ module.exports = [
             "cordova.plugins.backgroundMode",
             "plugin.backgroundMode"
         ]
+    },
+    {
+        "id": "cordova-plugin-local-notifications-nn.LocalNotification",
+        "file": "plugins/cordova-plugin-local-notifications-nn/www/local-notification.js",
+        "pluginId": "cordova-plugin-local-notifications-nn",
+        "clobbers": [
+            "cordova.plugins.notification.local",
+            "plugin.notification.local"
+        ]
+    },
+    {
+        "id": "cordova-plugin-local-notifications-nn.LocalNotification.Core",
+        "file": "plugins/cordova-plugin-local-notifications-nn/www/local-notification-core.js",
+        "pluginId": "cordova-plugin-local-notifications-nn",
+        "clobbers": [
+            "cordova.plugins.notification.local.core",
+            "plugin.notification.local.core"
+        ]
+    },
+    {
+        "id": "cordova-plugin-local-notifications-nn.LocalNotification.Util",
+        "file": "plugins/cordova-plugin-local-notifications-nn/www/local-notification-util.js",
+        "pluginId": "cordova-plugin-local-notifications-nn",
+        "merges": [
+            "cordova.plugins.notification.local.core",
+            "plugin.notification.local.core"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -259,7 +286,9 @@ module.exports.metadata =
     "cordova-plugin-wakeuptimer-jk": "1.1.2",
     "cordova-plugin-whitelist": "1.2.2",
     "cordova-plugin-device": "1.1.7",
-    "cordova-plugin-background-mode": "0.7.2"
+    "cordova-plugin-background-mode": "0.7.2",
+    "android.support.v13": "23.0.1-r2",
+    "cordova-plugin-local-notifications-nn": "0.8.2-r3"
 };
 // BOTTOM OF METADATA
 });

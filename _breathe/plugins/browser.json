@@ -37,6 +37,9 @@
         },
         "cordova-plugin-device": {
             "PACKAGE_NAME": "com.breathe.oky"
+        },
+        "cordova-plugin-local-notifications-nn": {
+            "PACKAGE_NAME": "com.breathe.oky"
         }
     },
     "dependent_plugins": {

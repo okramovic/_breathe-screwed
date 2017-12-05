@@ -8,11 +8,13 @@
     "dependencies": {
         "alarmClock": "0.0.1",
         "cordova-android": "^6.4.0",
+        "cordova-plugin-android-support-v13": "git+https://github.com/nnexai/cordova-plugin-android-support-v13.git",
         "cordova-plugin-background-app": "git+https://github.com/MobileChromeApps/cordova-plugin-background-app.git",
         "cordova-plugin-background-mode": "^0.7.2",
         "cordova-plugin-device": "^1.1.7",
         "cordova-plugin-file": "^5.0.0",
         "cordova-plugin-local-notifications": "^1.0.0",
+        "cordova-plugin-local-notifications-nn": "^0.8.2-r3",
         "cordova-plugin-media": "^4.0.0",
         "cordova-plugin-wakeuptimer-jk": "git+https://github.com/jkhax0r/cordova-plugin-wakeuptimer.git"
     },
@@ -22,7 +24,8 @@
             "cordova-plugin-background-app": {},
             "org.jk.cordova.wakeupplugin": {},
             "cordova-plugin-background-mode": {},
-            "cordova-plugin-device": {}
+            "cordova-plugin-device": {},
+            "cordova-plugin-local-notifications-nn": {}
         }
     }
 }

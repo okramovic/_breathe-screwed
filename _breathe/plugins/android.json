@@ -30,6 +30,9 @@
         },
         "cordova-plugin-device": {
             "PACKAGE_NAME": "com.breathe.oky"
+        },
+        "cordova-plugin-local-notifications-nn": {
+            "PACKAGE_NAME": "com.breathe.oky"
         }
     },
     "dependent_plugins": {
@@ -37,6 +40,9 @@
             "PACKAGE_NAME": "com.breathe.oky"
         },
         "cordova-plugin-wakeuptimer-jk": {
+            "PACKAGE_NAME": "com.breathe.oky"
+        },
+        "android.support.v13": {
             "PACKAGE_NAME": "com.breathe.oky"
         }
     }

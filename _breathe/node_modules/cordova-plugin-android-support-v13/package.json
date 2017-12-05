@@ -1,0 +1,51 @@
+{
+  "_from": "git+https://github.com/nnexai/cordova-plugin-android-support-v13.git",
+  "_id": "cordova-plugin-android-support-v13@23.0.1-r2",
+  "_inBundle": false,
+  "_integrity": "sha1-FsTNCaTmcd/7HMrzSqKhCCVuVmc=",
+  "_location": "/cordova-plugin-android-support-v13",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/nnexai/cordova-plugin-android-support-v13.git",
+    "rawSpec": "https://github.com/nnexai/cordova-plugin-android-support-v13.git",
+    "saveSpec": "git+https://github.com/nnexai/cordova-plugin-android-support-v13.git",
+    "fetchSpec": "https://github.com/nnexai/cordova-plugin-android-support-v13.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/nnexai/cordova-plugin-android-support-v13.git#8a30586b1d7edeecfc5e836638fd9ce668714895",
+  "_spec": "https://github.com/nnexai/cordova-plugin-android-support-v13.git",
+  "_where": "/Users/okram/Desktop/moi/_br_cord/_breathe/node_modules",
+  "author": {
+    "name": "Konni Hartmann"
+  },
+  "bugs": {
+    "url": "https://github.com/nnexai/cordova-plugin-android-support-v13/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Google Inc."
+    }
+  ],
+  "cordova": {
+    "id": "cordova-plugin-android-support-v13",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Fork of https://github.com/MobileChromeApps/cordova-plugin-android-support-v4 to fix Phonegap Build problems",
+  "homepage": "https://github.com/nnexai/cordova-plugin-android-support-v13#readme",
+  "license": "MIT",
+  "name": "cordova-plugin-android-support-v13",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnexai/cordova-plugin-android-support-v13.git"
+  },
+  "version": "23.0.1-r2"
+}
