@@ -27,7 +27,7 @@ function error(er){
 }*/
 document.addEventListener("deviceready", function(){
 
-        
+        alert("chrome alarms>" + chrome.alarms + "<")
         
         cordova.plugins.backgroundMode.enable();
 
